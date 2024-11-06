@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .robot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .head {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .eyes {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+  }
+  
+  .eye {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .eye::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  
+  .mouth {
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .body {
+    width: 120px;
+    height: 180px;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .arms {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    width: 160px;
+  }
+  
+  .arm {
+    width: 20px;
+    height: 80px;
+    background-color: #777;
+  }
+  
+  .legs {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-top: 20px;
+  }
+  
+  .leg {
+    width: 20px;
+    height: 80px;
+    background-color: #777;
+  }
+  
+  /* Command Center */
+  .command-center {
+    margin-top: 20px;
+  }
+  
+  #command-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  #command-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .speech-bubble {
+    position: absolute;
+    top: -60px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeOut 2s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .eye, .arm, .mouth {
+    transition: all 0.3s ease;
+  }
+  

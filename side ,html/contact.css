@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 1.5em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Contact Intro Section */
+.contact-intro {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.contact-intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.contact-form-container {
+    width: 45%;
+}
+
+.contact-form-container h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form-container button:hover {
+    background-color: #555;
+}
+
+/* Contact Details Section */
+.contact-details {
+    width: 45%;
+}
+
+.contact-details h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 0.5em;
+}
+
+/* Map Section */
+.map-section {
+    text-align: center;
+    padding: 2em;
+}
+
+.map-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}

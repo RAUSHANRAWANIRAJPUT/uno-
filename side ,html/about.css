@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 1.5em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* About Intro Section */
+.about-intro {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.about-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.about-intro p {
+    font-size: 1.2em;
+    color: #555;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* About Details Section */
+.about-details {
+    padding: 2em;
+    text-align: center;
+}
+
+.company-mission {
+    margin-bottom: 2em;
+}
+
+.company-mission h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.company-mission p {
+    font-size: 1.2em;
+    color: #666;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #817676;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}

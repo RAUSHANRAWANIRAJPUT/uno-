@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 1.5em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Shop Layout */
+.shop-container {
+    display: flex;
+    padding: 2em;
+}
+
+/* Sidebar Styles */
+.filter-sidebar {
+    width: 25%;
+    padding-right: 2em;
+}
+
+.filter-sidebar h2 {
+    font-size: 2em;
+}
+
+.filter {
+    margin-bottom: 2em;
+}
+
+.filter h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.filter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filter ul li {
+    margin-bottom: 0.5em;
+}
+
+.filter ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* Product Grid */
+.product-grid {
+    width: 75%;
+}
+
+.product-grid h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 23%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #eee;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}

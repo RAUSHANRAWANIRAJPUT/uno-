@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1a0606;
+    color: rgb(247, 239, 239);
+    padding: 1em;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style:none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav ul li a {
+    color: rgb(247, 232, 232);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url('slide-01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color: white(224, 5, 5);
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6347;
+    color: white;
+    border:none;
+    cursor:pointer;
+}
+
+.banner button:hover {
+    background-color: #d72e0c;
+}
+
+/* Product Section */
+.products {
+    padding: 2em;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+}
+
+.product-container {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 1.5em;
+}
+
+.product {
+    border: 1px solid #e8e4e4;
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
